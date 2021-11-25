@@ -1,0 +1,16 @@
+﻿using System;
+
+namespace question_52
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x=20, y=35;
+            x=++y + x++;
+            y=++y + ++x;
+            Console.WriteLine(y);
+            Console.ReadLine();
+        }
+    }
+}
